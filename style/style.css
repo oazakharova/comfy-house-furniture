@@ -94,26 +94,26 @@ body {
 .banner-title {
   font-size: 3.4rem;
   text-transform: uppercase;
-  letter-spacing: var(--mainSpacing);
+  letter-spacing: 0.1rem;
   margin-bottom: 3rem;
 }
 
 .banner-btn {
   padding: 1rem 3rem;
   text-transform: uppercase;
-  letter-spacing: var(--mainSpacing);
+  letter-spacing: 0.1rem;
   font-size: 1rem;
-  background: var(--primaryColor);
-  color: var(--mainBlack);
-  border: 1px solid var(--primaryColor);
-  -webkit-transition: var(--mainTransition);
-  transition: var(--mainTransition);
+  background: #f09d51;
+  color: #222;
+  border: 1px solid #f09d51;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
   cursor: pointer;
 }
 
 .banner-btn:hover {
   background: transparent;
-  color: var(--primaryColor);
+  color: #f09d51;
 }
 
 /* --------------- End of Hero ---------------- */
