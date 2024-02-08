@@ -186,7 +186,7 @@ body {
   transition: $mainTransition;
   background: $mainCartBcg;
   z-index: 2;
-  //visibility: hidden;
+  visibility: hidden; //
 }
 .cart {
   position: fixed;
@@ -199,7 +199,7 @@ body {
   background: rgb(231, 226, 221);
   padding: 1.5rem;
   transition: $mainTransition;
-  //transform: translateX(100%);
+  transform: translateX(100%); //
 
   @media (min-width: 768px) {
     width: 30vw;
